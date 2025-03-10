@@ -1,0 +1,26 @@
+.container{
+    margin: 15% 35%;
+    padding: 50px;
+    padding-top: 25px;
+    padding-right: 75px;
+    width: fit-content;
+    color:black;
+    background-color: #d4f8e8;
+    border-radius: 15px;
+    border: 2px #fefbd8 solid;
+  
+}
+body{
+    
+    background-color: #80ced6;
+    font-family: serif ;
+    font-size: 1.2rem;
+    line-height: normal;
+}
+h2{
+    
+    text-align: center;
+    margin-block-start:0px;
+  
+ 
+}
