@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascipt functions</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script type="text/javascript"> 
+    function add() {
+        document.f1.t3.value=parseInt(document.f1.t1.value)+parseInt(document.f1.t2.value)
+    }
+    function sub() {
+        document.f1.t3.value=parseInt(document.f1.t1.value)-parseInt(document.f1.t2.value)
+    }
+    function multi() {
+        document.f1.t3.value=parseInt(document.f1.t1.value)*parseInt(document.f1.t2.value)
+    }
+    function div() {
+        document.f1.t3.value=parseInt(document.f1.t1.value)/parseInt(document.f1.t2.value)
+    }
+
+
+    </script>
+</head>
+<body>
+    
+
+    <form name=f1 class="container">
+        <h2>calculator</h2>
+        
+        Enter number 1: <input types="text" name="t1"><br><br>
+        
+        Enter number 2: <input types="text" name="t2"><br><br>
+        Result: <input types="text" name="t3"><br><br>
+        <input type="button" name="b1" value="add" onclick="add()">
+        <input type="button" name="b2" value="subtract" onclick="sub()" >
+        <input type="button" name="b3" value="multiplication" onclick="multi()">
+        <input type="button" name="b4" value="Division" onclick="div()">
+
+
+    
+        <br>
+    </form>
+
+</body>
+</html>
